@@ -31,6 +31,18 @@ volcanic-source-packet chat
 hermes -p volcanic-source-packet chat -q "Make a source packet from this URL: https://example.com"
 ```
 
+## Toolset rationale
+
+This profile requests research-oriented toolsets: web/browser access to read public source pages, terminal/file/code execution for local parsing and reusable packet output, and skills for its bundled source-packet workflow. It does not request `all`, cron, messaging, wallet, or admin toolsets. Browser access is for reading/rendering provided sources, not for automated account actions.
+
+## Privacy note
+
+This profile may access external URLs you provide while building a source packet. Do not provide private links, credentials, or sensitive documents unless your Hermes environment and model/provider configuration are appropriate for that data.
+
+## Branding/provenance
+
+Published under the `Freakazoid78tr` GitHub account with `Volcanic` as the profile author/brand. The profile is intended as a public-service source-literacy utility, not as a private Volcanic operating profile.
+
 ## What is included
 
 - `SOUL.md` — source-packet persona and evidence rules.
