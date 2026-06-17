@@ -1,4 +1,4 @@
-# Volcanic Source Packet
+# Source Packet
 
 A public-safe Hermes profile for turning links, posts, papers, docs, repositories, and rough claims into clean, cited source packets.
 
@@ -13,22 +13,22 @@ It helps users and agents quickly understand source material while separating:
 ## Install
 
 ```bash
-hermes profile install github.com/Freakazoid78tr/volcanic-source-packet --name volcanic-source-packet --alias
+hermes profile install github.com/Freakazoid78tr/source-packet --name source-packet --alias
 ```
 
 Then copy the generated env example and add your model provider key if needed:
 
 ```bash
-cp ~/.hermes/profiles/volcanic-source-packet/.env.EXAMPLE ~/.hermes/profiles/volcanic-source-packet/.env
-$EDITOR ~/.hermes/profiles/volcanic-source-packet/.env
+cp ~/.hermes/profiles/source-packet/.env.EXAMPLE ~/.hermes/profiles/source-packet/.env
+$EDITOR ~/.hermes/profiles/source-packet/.env
 ```
 
 Run it:
 
 ```bash
-volcanic-source-packet chat
+source-packet chat
 # or
-hermes -p volcanic-source-packet chat -q "Make a source packet from this URL: https://example.com"
+hermes -p source-packet chat -q "Make a source packet from this URL: https://example.com"
 ```
 
 ## Toolset rationale
