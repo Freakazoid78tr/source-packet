@@ -13,7 +13,11 @@ It helps users and agents quickly understand source material while separating:
 ## Install
 
 ```bash
+<<<<<<< Updated upstream
 hermes profile install github.com/Freakazoid78tr/source-packet --name source-packet --alias
+=======
+hermes profile install github.com/VolcanicWorks/source-packet --name source-packet --alias
+>>>>>>> Stashed changes
 ```
 
 Then copy the generated env example and add your model provider key if needed:
@@ -41,7 +45,7 @@ This profile may access external URLs you provide while building a source packet
 
 ## Branding/provenance
 
-Published under the `Freakazoid78tr` GitHub account with `Volcanic` as the profile author/brand. The profile is intended as a public-service source-literacy utility, not as a private Volcanic operating profile.
+Published under the `VolcanicWorks` GitHub account with `Volcanic` as the profile author/brand. The profile is intended as a public-service source-literacy utility, not as a private Volcanic operating profile.
 
 ## What is included
 
