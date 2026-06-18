@@ -13,11 +13,7 @@ It helps users and agents quickly understand source material while separating:
 ## Install
 
 ```bash
-<<<<<<< Updated upstream
-hermes profile install github.com/Freakazoid78tr/source-packet --name source-packet --alias
-=======
 hermes profile install github.com/VolcanicWorks/source-packet --name source-packet --alias
->>>>>>> Stashed changes
 ```
 
 Then copy the generated env example and add your model provider key if needed:
